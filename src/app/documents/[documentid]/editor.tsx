@@ -48,7 +48,7 @@ const Editor = () => {
     onContentError({ editor }) {
       setEditor(editor);
     },
-    immediatelyRender: false,
+    immediatelyRender: false, 
     editorProps: {
       attributes: {
         class:
