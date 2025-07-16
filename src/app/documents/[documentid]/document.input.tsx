@@ -6,7 +6,6 @@ const DocumentInput = () => {
       <span className="text-lg px-2.5 cursor-pointer truncate">
         Untitled Document
       </span>
-
       <BsCloudCheck />
     </div>
   );
