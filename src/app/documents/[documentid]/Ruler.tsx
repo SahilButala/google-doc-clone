@@ -60,7 +60,7 @@ const Ruler = () => {
   return (
     <div
 
-      className="h-6   border-b border-gray-300 flex items-center relative print:hidden select-none"
+      className="h-6   border-b border-gray-300 flex items-center relative print:hidden select-none w-[816px] mx-auto"
       ref={rulerRef}
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
@@ -68,7 +68,7 @@ const Ruler = () => {
     >
       <div
         id="ruler-container"
-        className="max-w-[816px] mx-auto w-full h-full relative"
+        className=" mx-auto w-full h-full relative"
       >
         <Marker
           position={leftMargine}
